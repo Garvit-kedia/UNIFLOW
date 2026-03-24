@@ -35,4 +35,8 @@ export function useStoreUser() {
     isLoading: isLoading || (isAuthenticated && userId === null),
     isAuthenticated: isAuthenticated && userId !== null,
   };
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00

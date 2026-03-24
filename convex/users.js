@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
 import { internal } from "./_generated/api";
 import { mutation, query } from "./_generated/server";
 import { v } from "convex/values";
@@ -48,8 +52,14 @@ export const store = mutation({
       imageUrl: identity.pictureUrl,
       hasCompletedOnboarding: false,
       freeEventsCreated: 0,
+<<<<<<< HEAD
       createdAt: Date.now(),
       updatedAt: Date.now(),
+=======
+      createdAt:Date.now(),
+      updatedAt:Date.now(),
+    
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
     });
   },
 });
@@ -78,6 +88,7 @@ export const getCurrentUser = query({
   },
 });
 
+<<<<<<< HEAD
 // Complete onboarding (attendee preferences)
 export const completeOnboarding = mutation({
   args: {
@@ -101,3 +112,5 @@ export const completeOnboarding = mutation({
     return user._id;
   },
 });
+=======
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00

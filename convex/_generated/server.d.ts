@@ -10,7 +10,10 @@
 
 import {
   ActionBuilder,
+<<<<<<< HEAD
   AnyComponents,
+=======
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
   HttpActionBuilder,
   MutationBuilder,
   QueryBuilder,
@@ -19,6 +22,7 @@ import {
   GenericQueryCtx,
   GenericDatabaseReader,
   GenericDatabaseWriter,
+<<<<<<< HEAD
   FunctionReference,
 } from "convex/server";
 import type { DataModel } from "./dataModel.js";
@@ -28,6 +32,11 @@ type GenericCtx =
   | GenericMutationCtx<DataModel>
   | GenericQueryCtx<DataModel>;
 
+=======
+} from "convex/server";
+import type { DataModel } from "./dataModel.js";
+
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
 /**
  * Define a query in this Convex app's public API.
  *
@@ -92,11 +101,20 @@ export declare const internalAction: ActionBuilder<DataModel, "internal">;
 /**
  * Define an HTTP action.
  *
+<<<<<<< HEAD
  * This function will be used to respond to HTTP requests received by a Convex
  * deployment if the requests matches the path and method where this action
  * is routed. Be sure to route your action in `convex/http.js`.
  *
  * @param func - The function. It receives an {@link ActionCtx} as its first argument.
+=======
+ * The wrapped function will be used to respond to HTTP requests received
+ * by a Convex deployment if the requests matches the path and method where
+ * this action is routed. Be sure to route your httpAction in `convex/http.js`.
+ *
+ * @param func - The function. It receives an {@link ActionCtx} as its first argument
+ * and a Fetch API `Request` object as its second.
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
  * @returns The wrapped function. Import this function from `convex/http.js` and route it to hook it up.
  */
 export declare const httpAction: HttpActionBuilder;

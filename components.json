@@ -11,6 +11,10 @@
     "prefix": ""
   },
   "iconLibrary": "lucide",
+<<<<<<< HEAD
+=======
+  "rtl": false,
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",

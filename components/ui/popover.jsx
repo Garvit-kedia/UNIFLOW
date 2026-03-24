@@ -44,4 +44,52 @@ function PopoverAnchor({
   return <PopoverPrimitive.Anchor data-slot="popover-anchor" {...props} />;
 }
 
+<<<<<<< HEAD
 export { Popover, PopoverTrigger, PopoverContent, PopoverAnchor }
+=======
+function PopoverHeader({
+  className,
+  ...props
+}) {
+  return (
+    <div
+      data-slot="popover-header"
+      className={cn("flex flex-col gap-1 text-sm", className)}
+      {...props} />
+  );
+}
+
+function PopoverTitle({
+  className,
+  ...props
+}) {
+  return (
+    <div
+      data-slot="popover-title"
+      className={cn("font-medium", className)}
+      {...props} />
+  );
+}
+
+function PopoverDescription({
+  className,
+  ...props
+}) {
+  return (
+    <p
+      data-slot="popover-description"
+      className={cn("text-muted-foreground", className)}
+      {...props} />
+  );
+}
+
+export {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverAnchor,
+  PopoverHeader,
+  PopoverTitle,
+  PopoverDescription,
+}
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00

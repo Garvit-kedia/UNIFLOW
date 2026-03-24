@@ -41,6 +41,12 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+<<<<<<< HEAD
+=======
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
 }
 
 :root {
@@ -116,11 +122,15 @@
   * {
     @apply border-border outline-ring/50;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
   body {
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 
 @keyframes float {
 
@@ -137,3 +147,5 @@
 .perspective-1000 {
   perspective: 1000px;
 }
+=======
+>>>>>>> 7b5c526513bf9a49109cb4ca214e8be553983d00
