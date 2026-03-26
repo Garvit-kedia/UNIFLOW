@@ -149,7 +149,7 @@ export default function EventCard({
               ) : (
                 <>
                   <QrCode className="w-4 h-4" />
-                  Show Ticket
+                  Show Tickets
                 </>
               )}
             </Button>
