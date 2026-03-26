@@ -62,7 +62,7 @@ export default function Header() {
                 size="sm"
                 onClick={() => setShowUpgradeModal(true)}
               >
-                Pricing
+               show Pricing
               </Button>
             )}
 
