@@ -11,7 +11,7 @@ export default function Home() {
           {/* LEFT CONTENT */}
           <div className="text-center sm:text-left">
             <div className="mb-6">
-              <span className="text-gray-500 font-light tracking-wide">
+              <span className="text-gray-400 font-light tracking-wide">
                 UniFlow<span className="text-pink-400">*</span>
               </span>
             </div>
